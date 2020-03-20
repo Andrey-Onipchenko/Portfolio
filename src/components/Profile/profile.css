@@ -1,0 +1,39 @@
+.profile__title {
+  text-align: center;
+  border-bottom: 1px solid #41969c;
+  padding: 0 0 20px 0;
+  margin-bottom: 50px;
+}
+.avatar {
+  width: 389px;
+  height: 389px;
+  border-radius: 50%;
+  background-image: url("../../img/avatar.jpg");
+  background-repeat: no-repeat;
+  background-position: center top -40px;
+}
+.profile__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.profile__description h3 {
+  font-size: 18px;
+  color: #41969c;
+}
+.profile__description p {
+  font-size: 22px;
+}
+
+@media (max-width: 660px) {
+  .profile__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .avatar {
+    width: 300px;
+    height: 300px;
+  }
+}

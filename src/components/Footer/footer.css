@@ -1,0 +1,15 @@
+.footer_wrap {
+  background: #41969c;
+  height: 100%;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* color: rgb(247, 236, 236); */
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px 0;
+  align-items: center;
+}
