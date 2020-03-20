@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer_wrap">
       <div className="container">
         <nav className="footer__content">
-          <div>
+          <div className="footer_name">
             &lt;&nbsp;<span>Andrey</span> Onipchenko&nbsp;&gt;{" "}
           </div>
           <a className="tel" href="tel:+380680484492">
